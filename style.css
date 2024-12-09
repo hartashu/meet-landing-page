@@ -409,6 +409,7 @@ h1, h2, h3, h4, h5, h6 {
   .feature {
     max-width: 1120px;
     padding: 56px 0;
+    padding-bottom: 72px;
     margin: 0 auto;
   }
 
