@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Meet landing page</title>
+</head>
+<body class="page">
+
+  <header class="header">
+    <img src="assets/logo.svg" alt="" class="logo header__logo">
+  </header>
+
+  <main class="content">
+    <section class="hero">
+      <div class="grid hero__grid">
+        <picture>
+          <source srcset="assets/desktop/image-hero-left.png" media="(min-width: 1440px)">
+          <img src="assets/tablet/image-hero.png" alt="" class="hero__img-left">
+        </picture>
+        
+        <div class="hero__text flex flex--dir-column">
+          <h1 class="hero__title">Group Chat for Everyone</h1>
+          <p class="hero__desc">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+          <div class="hero__buttons flex flex--dir-column">
+            <a href="#" class="button button--color-cyan">Download <span class="button__version--color-cyan">v1.3</span></a>
+            <a href="#" class="button button--color-purple">What is it?</a>
+          </div>
+        </div>
+  
+        <img src="assets/desktop/image-hero-right.png" alt="" class="hero__img-right">
+      </div>
+    </section>
+
+    <section class="feature flex flex--dir-column">
+      <section class="number">
+        <div class="number__vertical-line"></div>
+        <div class="number__digit">01</div>
+      </section>
+
+      <ul class="feature__media">
+        <li><img src="assets/desktop/image-woman-in-videocall.jpg" alt="" class="feature__img"></li>
+        <li><img src="assets/desktop/image-women-videochatting.jpg" alt="" class="feature__img"></li>
+        <li><img src="assets/desktop/image-men-in-meeting.jpg" alt="" class="feature__img"></li>
+        <li><img src="assets/desktop/image-man-texting.jpg" alt="" class="feature__img"></li>
+      </ul>
+
+      <div class="feature__text">
+        <hgroup class="feature__title-group">
+          <p class="feature__subtitle">Built for modern use</p>
+          <h2 class="feature__title">Smarter meetings, all in one place</h2>
+        </hgroup>
+        <p class="feature__desc">Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <section class="number number--translate">
+      <div class="number__vertical-line"></div>
+      <div class="number__digit">02</div>
+    </section>
+
+    <div class="footer__container">
+      <div class="overlay">
+        <div class="footer__text flex flex--dir-column">
+          <h2 class="footer__title">Experience more together</h2>
+          <p class="footer__desc">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
+          <a rel="stylesheet" href="#" class="footer__button button button--color-purple">Download <span class="button__version--color-purple">v1.3</span></a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+</body>
+</html>
