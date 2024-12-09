@@ -177,8 +177,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .number--translate {
+  height: 108px;
   position: relative;
-  top: calc(var(--size) / 2);
+  /* top: calc(var(--size) / 2); */
 }
 
 .number__vertical-line {
