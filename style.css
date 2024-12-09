@@ -375,6 +375,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .hero__grid {
     max-width: 1440px;
+    /* height: 360px; */
     margin: 0 auto;
 
     grid-template-columns: repeat(3, 1fr);
@@ -389,14 +390,16 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .hero__text {
+    height: 360px;
     grid-area: hero-text;
-    justify-self: center;
+    justify-content: center;
   }
 
   .hero__img-right {
     display: block;
     grid-area: img-right;
     justify-self: self-end;
+    align-self: self-end;
   }
 
   .hero__title {
